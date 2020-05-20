@@ -1,0 +1,53 @@
+body {
+  background-color: #E4E5E7;
+  padding-top: 100px;
+}
+
+.aside {
+  height: 400px;
+}
+
+.main {
+  height: 400px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.task-title {
+  font-weight: 400;
+  padding-top: 5px;
+}
+
+.task-title--done {
+  color: #909090;
+  text-decoration: line-through;
+}
+
+.notifyHolder {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 930px;
+  height: 250px;
+}
+
+.alert {
+  transition: opacity 0.2s ease-in;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+}
+
+#empty-list-item {
+  background: url(../img/blossom.svg) no-repeat;
+  background-position: 50% 16%;
+  background-size: 30px;
+  padding: 45px 0;
+  font-size: 19px;
+}
